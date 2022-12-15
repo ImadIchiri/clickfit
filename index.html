@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click Fit</title>
+    <!-- Google Fonts 'Cairo' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awsome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Normalize CSS File -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- ============== Start Header Section ============== -->
+    <div class="overlay" id="overlay"></div>
+    <header class="main_header">
+      <div class="container">
+        <div class="logo">
+          <h1><span>C</span>lick<span>F</span>it</h1>
+        </div>
+        <nav class="main_nav" id="main_menu">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Menu</a>
+            </li>
+            <li>
+              <a href="#">Shop</a>
+            </li>
+            <li>
+              <a href="#">Contac</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle_menu" id="toggle_menu">
+          <i class="fa-solid fa-bars open_menu" id="open_menu"></i>
+          <i class="fa-solid fa-xmark close_menu" id="close_menu"></i>
+        </div>
+      </div>
+    </header>
+    <!-- ============== End Header Section ============== -->
+    <!-- ============== Start Home Section ============== -->
+    <section class="home">
+      <div class="container">
+        <div class="text_content">
+          <h1>Fitness Point That Will Make You Pop!</h1>
+          <p>
+            A huge selection of health and fitness content, healthy recipes and
+            transformation stories to help you get fit and stay fit!
+          </p>
+          <button class="main_btn">Learn more</button>
+        </div>
+        <div class="image_content">
+          <img src="./assets/home-image.png" alt="Home Avatar" />
+        </div>
+      </div>
+    </section>
+    <!-- ============== End Home Section ============== -->
+
+    <!-- ============== Start OurStory Section ============== -->
+    <section class="our_story">
+      <div class="container">
+        <div class="image_content">
+          <img src="./assets/ourStory-image.webp" alt="" />
+        </div>
+        <div class="text_content">
+          <h2>In the buisness since <span id="api_year">8888</span></h2>
+          <p id="api_text">
+            January 30th is the day in 1971 that Carole King's Tapestry album is
+            released, it would become the longest charting album by a female
+            solo artist and sell 24 million copies worldwide.
+          </p>
+          <button class="main_btn">Contact Us</button>
+        </div>
+      </div>
+    </section>
+    <!-- ============== End OurStory Section ============== -->
+
+    <!-- ============== Start Testimonials Section ============== -->
+    <section class="testimonials">
+      <div class="container">
+        <h1 data-content="This what our clients said!">
+          This what our clients said!
+        </h1>
+        <div class="cards">
+          <div class="card">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet,
+              consectetur
+            </p>
+            <a href="#">Katie Simpson</a>
+          </div>
+          <div class="card">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet,
+              consectetur
+            </p>
+            <a href="#">Marie Ulfa</a>
+          </div>
+          <div class="card">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet,
+              consectetur
+            </p>
+            <a href="#">Richard Blok</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ============== End Testimonials Section ============== -->
+
+    <!-- ============== Start UploadPhoto Section ============== -->
+    <section class="upload_photo">
+      <div class="container">
+        <h1>Share Your Best Memories With Us</h1>
+        <form>
+          <input
+            type="file"
+            class="upload_input"
+            id="upload_input"
+            accept="image/*"
+          />
+          <button class="upload_btn" id="upload_btn">
+            <i class="fa-solid fa-plus plus_icon"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- ============== End UploadPhoto Section ============== -->
+
+    <!-- ============== Start Footer Section ============== -->
+    <section class="footer">
+      <div class="container">
+        <div class="footer_links">
+          <div class="logo">
+            <h1><span>C</span>lick<span>F</span>it</h1>
+          </div>
+          <div class="links">
+            <ul>
+              <h2>Menu</h2>
+              <li>
+                <a href="#">Home</a>
+                <a href="#">Menu</a>
+                <a href="#">Shop</a>
+              </li>
+            </ul>
+            <ul>
+              <h2>About Us</h2>
+              <li>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <a href="#">Q&A</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer_newsletter">
+          <h2>Subscribe to Our Newsletter For Weekly Article Update.</h2>
+          <form>
+            <input type="text" placeholder="Enter your email address" />
+            <button type="button">Join now</button>
+          </form>
+          <div class="social_media">
+            <a href="https://github.com/ImadIchiri" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/imad_ichiri/" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/imad-ichiri" target="_blank">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ============== End Footer Section ============== -->
+    <!-- Jquery -->
+    <script src="./javaScript/jquery-3.6.2.js"></script>
+    <!-- toggle-menu File -->
+    <script src="./javaScript/toggle-men.js"></script>
+    <!-- upload-photo File -->
+    <script src="./javaScript/upload-photo.js"></script>
+    <!-- Main JavaScript File -->
+    <script src="./javaScript/main.js"></script>
+  </body>
+</html>
